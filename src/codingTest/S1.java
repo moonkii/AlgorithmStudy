@@ -1,6 +1,5 @@
 package codingTest;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,7 +10,6 @@ public class S1 {
     public static void main(String args[]){
 
         Scanner sc = new Scanner(System.in);
-
 
         long n = sc.nextLong();
         long min =0;
@@ -25,7 +23,6 @@ public class S1 {
                 arr.add(i);
             }
         }
-
 
         if(arr.size() % 2 ==0){
 

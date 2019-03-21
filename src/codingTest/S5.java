@@ -2,7 +2,6 @@ package codingTest;
 
 import java.util.Hashtable;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class S5 {
 
@@ -15,9 +14,6 @@ public class S5 {
 
         String[] header1;
         Hashtable<Integer,String[]> table1;
-
-
-
 
         for(int i=0; i<t1 ; i++){
 
@@ -32,9 +28,6 @@ public class S5 {
                 sc = new Scanner(System.in);
                 String d1 = sc.nextLine();
                 String[] data = d1.split(" ");
-
-
-
 
             }
         }
