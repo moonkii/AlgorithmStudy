@@ -10,9 +10,20 @@ public class Test {
 
     public static void main(String[] args){
 
+        for(int i=-1; i>=0; i++){
+            System.out.println("zz");
+        }
 
-        System.out.println(Integer.bitCount(14>>1));
-        System.out.println((14>>1));
+
+//        for(int i=0; i<10; i++){
+//
+//            System.out.println(i+"번쨰");
+//            for(int j=i-1; j>=0; j--){
+//                System.out.print(j+" ");
+//            }
+//
+//            System.out.println();
+//        }
 
         }
     }

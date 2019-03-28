@@ -6,10 +6,12 @@ public class CommonStart {
 
     public static void main(String[] args){
 
+        int c; //테스트 케이스
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         try {
-            int c = Integer.parseInt(br.readLine());
+            c = Integer.parseInt(br.readLine());
 
 
             for(int i=0; i<c ; i ++){

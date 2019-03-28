@@ -1,9 +1,10 @@
+package _8_dynamicProgramming;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main  {
-
+public class Tiling2 {
 
     public static int getTiling(int[] memo ,int n){
 
@@ -45,12 +46,13 @@ public class Main  {
 
             for(int i=0; i<c ; i ++){
 
-                memo = new int[101];
+                memo = new int[100];
 
                 n = Integer.parseInt(br.readLine());
 
-                long temp = getTiling(memo,n);
-                System.out.println(Math.floorMod(temp,div));
+                System.out.println(getTiling(memo,n)/div);
+
+
 
             }
 
