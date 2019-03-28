@@ -4,6 +4,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/*##############
+ *     해결중
+ * #############*/
+
+
 public class Tiling2 {
 
     public static int getTiling(int[] memo ,int n){
@@ -50,6 +55,7 @@ public class Tiling2 {
 
                 n = Integer.parseInt(br.readLine());
 
+                //이 부분 처리
                 System.out.println(getTiling(memo,n)/div);
 
 

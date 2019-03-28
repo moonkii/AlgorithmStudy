@@ -5,6 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/*##############
+ *     완료
+ * #############*/
+
 public class TrianglePath {
 
     public static int max(int a, int b){

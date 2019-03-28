@@ -5,6 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
+
+/*##############
+ *     해결중
+ * #############*/
+
 public class WildCard {
 
     public static String getPair(String w  ,int order){

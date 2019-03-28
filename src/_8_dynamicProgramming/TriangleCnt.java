@@ -5,6 +5,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/*##############
+ *     해결중
+ * #############*/
+
 public class TriangleCnt {
 
 

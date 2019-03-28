@@ -4,6 +4,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+
+/*##############
+ *      완료
+ * #############*/
+
 public class FanMeeting {
 
     //멤버 수만큼 팬 배열을 한칸씩 이동하면서 체크 ( 남자는 1 , 여자는 0 이라서 남자끼리 만나는 경우는 곱이 1 이고 그 나머지는 모두 0 )

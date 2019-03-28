@@ -6,6 +6,10 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
+/*##############
+ *     해결중
+ * #############*/
+
 public class Josephus {
 
     public static void main(String[] args){
