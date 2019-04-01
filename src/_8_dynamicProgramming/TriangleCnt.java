@@ -71,8 +71,6 @@ public class TriangleCnt {
 
                         }
 
-
-
                     }
 
                     r++;

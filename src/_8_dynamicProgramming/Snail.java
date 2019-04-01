@@ -1,10 +1,11 @@
+package _8_dynamicProgramming;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.text.DecimalFormat;
 import java.util.StringTokenizer;
 
-public class Main  {
+public class Snail {
 
     public static void combination(int[][] combi, int size){
 
@@ -24,7 +25,6 @@ public class Main  {
     public static void main(String[] args){
 
         int c; //테스트 케이스
-        double[] result;
         int n; //우물의 깊이 ( [1,1000])
         int m; //장마 길이 ( [1,1000] )
 
@@ -32,7 +32,7 @@ public class Main  {
 
         try {
             c = Integer.parseInt(br.readLine());
-            result = new double[c];
+
 
             for(int i=0; i<c ; i ++){
 
@@ -53,20 +53,15 @@ public class Main  {
                     }
                 }
 
-                result[i] = probability;
 
+                System.out.println(probability);
             }
 
-
-            for(double item : result){
-                String str = String.format("%.11f",item);
-                System.out.println(str);
-
-            }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
 
     }
+
 }
