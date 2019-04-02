@@ -1,39 +1,38 @@
-import java.awt.*;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.math.BigInteger;
 
 public class Test {
 
-
-
     public static void main(String[] args){
 
-        int size =5;
-        int[][] combi = new int[size+1][size+1];
+        int n= 92;
+        long[] tiling = new long[93];
 
-        for(int y=0; y <=size ; y++){
-            for(int x=0; x<y+1; x++){
+        for(int j=1; j<=n ; j++){
 
-                if(y==0 || x==0 | y==x){
-                    combi[y][x]=1;
-                }else{
-                    combi[y][x] = combi[y-1][x-1] + combi[y-1][x];
-                }
+            if(j==1){
+                tiling[j] = 1;
+            }else if(j==2){
+                tiling[j] = 2;
+            }else{
+                tiling[j] = tiling[j-1] + tiling[j-2];
+
             }
+
+            System.out.println(j+"번째 "+tiling[j]);
         }
-//
-//        for(int i=0; i<=size; i++){
-//            for(int j=0; j<=size; j++){
-//                if(combi[i][j]!=0){
-//                    System.out.print(combi[i][j]+" ");
-//                }
-//            }
-//
-//            System.out.println();
-//        }
-        System.out.println(Math.pow(0.75,0));
+
+
+        long result = tiling[92] - tiling[45] - tiling[46];
+
+
+
+
+        long mod = 1000000007;
+
+        System.out.println( (long)(result%mod) );
+
+//        System.out.println("92 번째 "+(tiling[92]%mod));
+
 
         }
     }

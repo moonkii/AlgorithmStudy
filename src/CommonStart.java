@@ -2,6 +2,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/* 풀이 기록
+ * 1.
+ *  - 원인 :
+ *  - 해결책 :
+ * */
+
 public class CommonStart {
 
     public static void main(String[] args){
