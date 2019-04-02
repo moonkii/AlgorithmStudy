@@ -7,6 +7,8 @@ import java.io.InputStreamReader;
 /*##############
  *     완료
  * #############*/
+
+
 /* 풀이 기록
  * 1. 출력할려는 경우의 수가 long 의 범위를 넘어서는 경우 ( double 로 할 경우 오차발생 )
  *  - 원인 : 경우의 수가 피보나치 수열로 증가하기 때문에 사각형 높이 값을 100 까지 입력할 경우 long 의 범위를 벗어남
@@ -44,6 +46,7 @@ public class Tiling2 {
                         memo[j] = (memo[j-1] + memo[j-2]) % mod;
                     }
                 }
+
 
                 System.out.println(memo[n]);
 
