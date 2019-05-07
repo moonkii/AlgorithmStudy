@@ -1,20 +1,10 @@
+package jongManBook._20_String;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-
-/* 풀이법
- * 1.
- * */
-
-
-/* 풀이 과정 기록
- * 1.
- *  - 원인 :
- *  - 해결책 :
- * */
-
-public class CommonStart {
+public class Palinderomize {
 
     public static void main(String[] args){
 
@@ -25,8 +15,10 @@ public class CommonStart {
         try {
             c = Integer.parseInt(br.readLine());
 
-
             for(int i=0; i<c ; i ++){
+
+                String input = br.readLine();
+                char[] word = input.toCharArray();
 
             }
 
