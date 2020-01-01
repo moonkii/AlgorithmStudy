@@ -9,4 +9,6 @@ internal class EvenAndOddTest {
         assertThat(distinctEvenOrOdd(3)).isEqualTo("Odd")
         assertThat(distinctEvenOrOdd(4)).isEqualTo("Even")
     }
+
+
 }
