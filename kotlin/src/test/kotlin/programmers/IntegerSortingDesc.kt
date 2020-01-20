@@ -5,10 +5,10 @@ import org.junit.Test
 
 internal class IntegerSortingDesc {
     @Test
-    fun `정수 내림차순으로 배치하기`(){
+    fun `정수 내림차순으로 배치하기`() {
         assertThat(integerSortingDesc(118372)).isEqualTo(873211)
     }
-
-    private fun integerSortingDesc(num: Long):Long =
-        num.toString().toCharArray().sortedDescending().joinToString("").toLong()
 }
+
+fun integerSortingDesc(num: Long):Long =
+    num.toString().toCharArray().sortedDescending().joinToString("").toLong()
