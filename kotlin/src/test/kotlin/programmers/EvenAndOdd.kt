@@ -10,3 +10,9 @@ internal class EvenAndOddTest {
         assertThat(distinctEvenOrOdd(4)).isEqualTo("Even")
     }
 }
+
+fun distinctEvenOrOdd(num: Int):String =
+    when(num % 2) {
+        0 -> "Even"
+        else -> "Odd"
+    }
