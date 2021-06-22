@@ -1,7 +1,8 @@
-#default
+# default
 .idea/
 out/
 .gradle/
+node_modules/
 
 # Compiled class file
 *.class
